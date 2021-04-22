@@ -21,7 +21,7 @@ const tideData = async () => {
 			},
 		}
 	);
-	return result.extremes[0];
+	return result;
 };
 
 const IndexPage = () => {
